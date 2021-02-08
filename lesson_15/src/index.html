@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="og:title" content="" />
+    <meta property="og:description" content="" />
+    <meta property="og:url" content="" />
+    <meta property="og:image" content="img/preview.jpg" />
+
+    <meta name="title" content="" />
+    <meta name="description" content="" />
+    <link rel="image_src" href="img/preview.jpg" />
+
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Подбор шрифтов</title>
+
+    <!-- Подключение шрифтов  -->
+     <link rel="preconnect" href="https://fonts.gstatic.com">
+     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet"> 
+     <link rel="preconnect" href="https://fonts.gstatic.com">
+     <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet"> 
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+  	<link rel="stylesheet" href="css/style.css"/>
+
+  </head>
+  <body>
+    <header>
+    	<div class="container">
+  				<div class="text-box"><input type="search" class="form-control" autofocus placeholder="Введите свою фразу"></div>
+  				<div class="fonts">
+  					<p class="resault sans">Начните писать фразу</p>
+  					<small>Вот так выглядит шрифт <strong>Open Sans</strong></small>
+  					<hr>
+  					<p class="resault bebas">Начните писать фразу</p>
+  					<small>Вот так выглядит шрифт <strong>Bebas</strong></small>
+  					<hr>
+  					<p class="resault lato">Начните писать фразу</p>
+  					<small>Вот так выглядит шрифт <strong>Lato</strong></small>
+  					<hr>
+  					<p class="resault lobster">Начните писать фразу</p>
+  					<small>Вот так выглядит шрифт <strong>Lobster</strong></small>
+  					
+  				</div>
+    	</div>
+    </header>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script>
+    		$('input').keyup(function(){
+    			$('p.resault').text($('input').val())
+    		});
+    </script>
+  </body>
+</html>

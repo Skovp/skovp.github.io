@@ -7,3 +7,6 @@
 [Урок 13](https://skovp.github.io/lesson_13/src/ "Пиксельная вёрстка")
 
 [Урок 14](https://skovp.github.io/lesson_14/src/ "Шапка сайта")
+
+[Урок 15](https://skovp.github.io/lesson_15/src/ "Подбор шрифтов")
+

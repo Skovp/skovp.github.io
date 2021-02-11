@@ -1,0 +1,11 @@
+body{
+	margin: 0;
+	display: flex;
+}
+*{
+	box-sizing: border-box;
+}
+.fotorama{
+	padding: 10rem;
+	margin: auto;
+}

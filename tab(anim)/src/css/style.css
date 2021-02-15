@@ -1,0 +1,48 @@
+body{
+	margin: 0;
+}
+*{
+	box-sizing: border-box;
+}
+.reg-form{
+	margin-top: 10rem;
+}
+.nav-tabs{
+	width: 45rem;
+}
+.entrance{
+	margin: 0 1rem;
+	background-color: #03a5da;
+	border-radius: 4px;
+	
+}
+.form{
+	width: 100%;
+	background-color: #236854;
+	border: 15px solid #03a5da;
+	width: 45rem;
+}
+
+.form-input{
+	display: block;
+	font-size: 15px;
+	width: 30rem;
+	height: 3rem;
+	margin: 2rem 4.5rem;
+}
+small{
+	margin: 1rem 6rem;
+	color:#5c0e01;
+}
+p{
+	margin: 3rem 6rem;
+
+}
+.button{
+	font-size: 2rem;
+	color:#fff;
+	margin-top: -5rem;
+	margin-right: -2rem;
+ float: right;
+	background-image: url(../img/shape.png);
+	}

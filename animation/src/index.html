@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Анимация</title>
+</head>
+<body>
+	 
+<section class="white">
+<img class="rellax" data-rellax-speed="2" width="300" height="300" src="img/3.png" alt="">
+<img class="rellax" data-rellax-speed="-3" width="300" height="300" src="img/4.png" alt="">
+</section>
+<section class="parallax-window" data-parallax="scroll" data-image-src="img/1.jpg"></section>
+<section class="white">
+</section>
+<section class="parallax-window" data-parallax="scroll" data-image-src="img/2.jpg"></section>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="js/parallax.js"></script>
+	<script src="js/rellax.min.js"></script>
+	<script>
+		var rellax = new Rellax('.rellax');
+	</script>
+</body>
+</html>

@@ -1,0 +1,54 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	margin: 0;
+}
+.map{
+	position: relative;
+	margin-bottom: 2rem;
+}
+.contact{
+	position: absolute;
+	margin-left: 21%;
+	width: 40rem;
+	height: 43rem;
+	background: #c60b0b;
+	z-index: 9;
+	top:0;
+}
+.info{
+	padding: 7rem;
+	text-align: center;
+	color:#fff;
+}
+.info-text{
+	margin-top: 3rem;
+}
+.logo{
+	min-height: 2rem;
+	display: inline-block;
+}
+.name{
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 1.6rem;
+	padding-top: 2rem;
+	padding-left: 2rem;
+	font-weight: 900;
+}
+.sert{
+	margin: 2rem;
+	font-size: 1.4rem;
+	text-align: center;
+	color: #8b8b8b;
+}
+.phone{
+	font-size: 2.2rem;
+	font-weight: 900;
+	text-align: center;
+}
+.addres{
+	font-size: 1.4rem;
+	text-align: center;
+}
